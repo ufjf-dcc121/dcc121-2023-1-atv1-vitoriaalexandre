@@ -9,6 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Aula 2</title>
     <link rel="stylesheet" href="estiloPagina.css" />
+    <style>
+        li.jogos{
+            color: cornflowerblue;
+        }
+        li.series{
+            color: fuchsia;
+        }
+        li.filmes{
+            color: brown;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,17 +34,19 @@
     </header>
 
     <main>
-    <ol>jogos que joguei:
-    <li>- Pokemon go</li>
-    <li>- Shadow of the colossus</li>
-    <li>- I love Hue Too</li>
-    </ol>
+        <li class="jogos">
+            <ol>jogos que joguei:
+                <li>- Pokemon go</li>
+                <li>- Shadow of the colossus</li>
+                <li>- I love Hue Too</li>
+            </ol>
+        </li>
 
     <p>
         <h3>Meus filmes preferidos:</h3>
     </p>
     <ul>
-        <li>
+        <li class="filmes">
             <div>filmes</div>
         <ul>  
             <li>1917</li>
@@ -41,11 +54,12 @@
         </ul>
         </li>
         
-        <li>Series</li>
-        <ul>
-            <li>Mind Hunter</li>
-            <li>Severance</li>
-        </ul>
+        <li class="series">Series
+            <ul>
+                <li>Mind Hunter</li>
+                <li>Severance</li>
+            </ul>
+        </li>
     </ul>
     </main>
     <footer>
